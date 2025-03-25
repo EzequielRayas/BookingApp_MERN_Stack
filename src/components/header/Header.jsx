@@ -8,24 +8,31 @@ const Header = () => {
         
             <div className="headerContainer">
             <div className="headerList">
-                <div className="headerListItem"></div>
+                <div className="headerListItem">
                 <FontAwesomeIcon icon={faBed} />
                 <span>Alojaminetos</span>
-                <div className="headerListItem"></div>
+                </div>
+                <div className="headerListItem">
                 <FontAwesomeIcon icon={faPlane} />
                 <span>Vuelos</span>
-                <div className="headerListItem"></div>
+                </div>
+                <div className="headerListItem">
                 <FontAwesomeIcon icon={faCar} />
                 <span>Renta de autos</span>
-                <div className="headerListItem"></div>
+                </div>
+                <div className="headerListItem">
                 <FontAwesomeIcon icon={faGift} />
                 <span>Atracciones</span>
-                <div className="headerListItem"></div>
+                </div>
+                <div className="headerListItem">
                 <FontAwesomeIcon icon={faTaxi} />
                 <span>Taxi</span>
-
+                </div>
             </div>
-            
+            <h1 className="headerTitle">Vive el sueño en una casa vacacional</h1>
+                <h2 className="headerSubtitle">Elige entre casas, villas, cabañas y más</h2>
+                <button className="headerBtn">Reserva el tuyo</button>
+
         </div>
     </div>
   )
